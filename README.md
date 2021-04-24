@@ -1,10 +1,8 @@
 # ssj React Project Template Guide
 
-__________________
-
 ### Summary
 
-This `React` project template features a few key package integrations/settings I've found I need in 
+This `React` project template features a few key package integrations/settings I've found I need in
 every
 `React` project. These are
 
@@ -14,10 +12,18 @@ every
 - `lint-staged`
 - `prettier`
 - `react-router`
-- `storybook`
 - `styled-components`
 
-### Checklist
-Make sure that you 
-1. Edit the `public/index.html` file to meet your needs.
-2. Edit the `package.json` file to properly reflect the author, package name, version number, etc. 
+
+### Usage
+
+This template follows the standard `create-react-app` template guide as described 
+[here](https://create-react-app.dev/docs/custom-templates).
+
+Run this in your terminal
+```shell
+npx create-react-app MY-PROJECT-NAME --template cra-template-ssj
+```
+
+Voilà, your project will be initialized using this template.
+
