@@ -11,6 +11,16 @@
     "plugin:sonarjs/recommended",
     "react-app"
   ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.stories.*"
+      ],
+      "rules": {
+        "import/no-anonymous-default-export": "off"
+      }
+    }
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
