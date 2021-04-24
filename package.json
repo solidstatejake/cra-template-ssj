@@ -1,6 +1,14 @@
 {
   "name": "cra-template-ssj",
+  "description": "A `create-react-app` template a là `ssj`",
   "version": "0.1.1",
+  "author": {
+    "name": "solidstatejake"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solidstatejake/cra-template-ssj.git"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "react": "^17.0.2",
